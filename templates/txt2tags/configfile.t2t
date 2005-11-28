@@ -1,0 +1,6 @@
+@FILE@
+@AUTHOR@
+%%date(%Y-%m-%d),@CVS_REVISION@
+
+%!includeconf:config.t2t
+@CURSOR@

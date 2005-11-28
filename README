@@ -1,0 +1,5 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1411
+
+This script can be used to load template files just to save time. It shows templates for current buffer's filetype, you can choose one and load it. Some templates are distributed with this script, and I will
+add more if I have time. Of course, you can post your templates to me if you like, and I will add them to this package and your name to this script, :-)
+

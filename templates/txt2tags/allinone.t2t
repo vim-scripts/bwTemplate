@@ -1,0 +1,7 @@
+@FILE@
+@AUTHOR@
+%%date(%Y-%m-%d),@CVS_REVISION@
+
+%!encoding:      gb2312
+%!options(html): --css-suggar --css-inside --style=cmodern.css --toc --toc-level=4 --enum-title
+@CURSOR@

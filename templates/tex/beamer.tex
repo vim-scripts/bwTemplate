@@ -1,0 +1,56 @@
+%% FILENAME: @FILE@
+%% AUTHOR:   @AUTHOR@
+%% DATE:     @DATE@
+%% @CVS_REVISION@
+%% DESCRIPTION:
+
+\documentclass[cjk]{beamer}
+%%============ usepackage ============ {{{
+\usepackage{CJK}
+\usepackage{cmap}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{type1cm}
+%% }}}
+%%============ define your command here ============ {{{
+%% 指定图像文件的路径在Images目录下
+\graphicspath{{Images/}}
+%% }}}
+%%============ document begin ============ {{{
+\usetheme{Goettingen}
+\begin{document}
+\begin{CJK*}{GBK}{kai}
+
+\title{@FILE@}
+\author{@AUTHOR@}
+\date{\today}
+
+\section*{cover}
+\frame{\titlepage}
+
+\section*{目录}
+\frame{\tableofcontents}
+
+\section{第一节}
+\subsection{第一点一节}
+\frame{
+\frametitle{页面名称}
+@CURSOR@
+}
+
+\begin{frame}
+\frametitle{页面名称}
+\end{frame}
+
+%% 致谢
+\begin{frame}
+%\Huge
+\fontsize{60pt}{0pt}\selectfont
+\begin{center}
+谢~~谢！
+\end{center}
+\end{frame}
+
+\end{CJK*}
+\end{document} %% }}}
